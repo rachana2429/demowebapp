@@ -30,4 +30,4 @@ stages:
             **/*.yml
             **/*.java
           TargetFolder: 'ArtifactStagingDirectory'
-         - bash: ls -R $(Build.ArtifactStagingDirectory)
+          - bash: ls -R $(Build.ArtifactStagingDirectory)
