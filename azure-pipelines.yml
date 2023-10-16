@@ -31,4 +31,3 @@ stages:
             **/*.java
           TargetFolder: 'ArtifactStagingDirectory'
          - bash: ls -R $(Build.ArtifactStagingDirectory)
-
